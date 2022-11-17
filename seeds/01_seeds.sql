@@ -1,0 +1,7 @@
+INSERT INTO users VALUES (1, 'rouzbeh', be@gmail.com, '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'), (2, 'roby', rb@gmail.com, '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'), (3, 'roozy', rz@gmail.com, '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+
+INSERT INTO properties VALUES (1, 2, 'single bed river view', 'studio single bed river view', 'www.lightbnb.com/beds/single_bed', 'www.lightbnb.com/beds/single_bed/cover', 100, 1, 1, 0, 'Canada','16','Torornto', 'Ontario', 'l3j5k9', TRUE), (2, 3, 'double bed river view', 'studio double bed river view', 'www.lightbnb.com/beds/double_bed', 'www.lightbnb.com/beds/double_bed/cover', 150, 1, 1, 1, 'Canada','16','Torornto', 'Ontario', 'l3j5k9', TRUE), (3, 1, 'single bed river view', 'studio single bed river view', 'www.lightbnb.com/beds/single_bed', 'www.lightbnb.com/beds/single_bed/cover', 100, 1, 1, 0, 'Canada','16','Torornto', 'Ontario', 'l3j5k9', TRUE); 
+
+INSERT INTO reservations VALUES (1, '2022-07-01', '2022-07-02', 1, 2), (1, '2022-07-01', '2022-07-02', 2, 3), (1, '2022-07-01', '2022-07-02', 3, 1);
+
+INSERT INTO property_reviews VALUES (1, 2, 1, 1, 5, 'good services'), (2, 2, 3, 2, 4, 'clean'), (3, 3, 1, 3, 1, 'not good');
